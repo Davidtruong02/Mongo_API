@@ -1,5 +1,7 @@
+// Purpose: create the Reaction schema for the database
 const {Schema, Types} = require('mongoose');
 
+// import the dateFormat function from the utils folder
 const reactionSchema = new Schema({
     reactionId: {
         type: Schema.Types.ObjectId,
