@@ -4,11 +4,13 @@
     "mongoose": "^8.2.4"
   },
   "name": "mongo_api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.9"},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
