@@ -1,6 +1,6 @@
 // Purpose: To create a Thought model for the NoSQL Social Network API.
 const {Schema, model} = require('mongoose');
-
+const dateFormat = require('../utils/date');
 const reactionSchema = require('./Reaction');
 
 // This will not be a model, but rather will be used as the reaction field's subdocument schema in the Thought model.
